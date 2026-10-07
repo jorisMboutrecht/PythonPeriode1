@@ -2,9 +2,10 @@
 # Maak een list aan genaamd books met minimaal 5 boeken
 # Gebruik daarna een for-loop om ieder boek 1 voor 1 uit te printen
 
+books = ["De avond is ongemak", "Het dossier", "De kinderen van de tijd", "Norweegs Wood", "Sapiens"]
 
-
-
+for i in range(0, 5):
+    print(books[i])
 
 # Oefening 2
 # Maak een list aan genaamd games met minimaal 5 games
@@ -12,7 +13,10 @@
 # Print bij iedere game de zin: "Ik speel graag ..."
 # Bijvoorbeeld: "Ik speel graag Minecraft"
 
+games = ["fortine", "minecraft", "slime-rancher", "gta-5", "farming-simulator-25"]
 
+for i in range(0, 5):
+    print(f"Ik speel graag {games[i]}")
 
 
 
