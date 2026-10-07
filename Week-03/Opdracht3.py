@@ -18,7 +18,7 @@ games = ["fortine", "minecraft", "slime-rancher", "gta-5", "farming-simulator-25
 for i in range(0, 5):
     print(f"Ik speel graag {games[i]}")
 
-print("test")
+
 
 
 
